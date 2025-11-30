@@ -1,0 +1,40 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 10 |       NEW |     READY |
+|                 0 | 10 |     READY |   RUNNING |
+|                20 | 20 |       NEW |     READY |
+|                40 | 30 |       NEW |     READY |
+|                60 | 40 |       NEW |     READY |
+|                80 | 50 |       NEW |     READY |
+|               100 | 10 |   RUNNING |     READY |
+|               100 | 10 |     READY |   RUNNING |
+|               200 | 10 |   RUNNING |     READY |
+|               200 | 10 |     READY |   RUNNING |
+|               300 | 10 |   RUNNING |     READY |
+|               300 | 10 |     READY |   RUNNING |
+|               400 | 10 |   RUNNING |     READY |
+|               400 | 10 |     READY |   RUNNING |
+|               450 | 10 |   RUNNING |TERMINATED |
+|               450 | 20 |     READY |   RUNNING |
+|               550 | 20 |   RUNNING |     READY |
+|               550 | 20 |     READY |   RUNNING |
+|               630 | 20 |   RUNNING |TERMINATED |
+|               630 | 30 |     READY |   RUNNING |
+|               730 | 30 |   RUNNING |     READY |
+|               730 | 30 |     READY |   RUNNING |
+|               780 | 30 |   RUNNING |TERMINATED |
+|               780 | 40 |     READY |   RUNNING |
+|               880 | 40 |   RUNNING |     READY |
+|               880 | 40 |     READY |   RUNNING |
+|               900 | 40 |   RUNNING |TERMINATED |
+|               900 | 50 |     READY |   RUNNING |
+|              1000 | 50 |   RUNNING |TERMINATED |
++------------------------------------------------+
+
+
+Performance Metrics: 
+Throughput: 0.005
+Average Turnaround Time: 712
+Average Wait Time: 512
+Average Response Time: 512

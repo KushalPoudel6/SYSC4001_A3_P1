@@ -1,0 +1,51 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 |  5 |       NEW |     READY |
+|                 0 |  5 |     READY |   RUNNING |
+|                 8 | 12 |       NEW |     READY |
+|                35 | 73 |       NEW |     READY |
+|               100 |  5 |   RUNNING |     READY |
+|               100 |  5 |     READY |   RUNNING |
+|               110 |  5 |   RUNNING |   WAITING |
+|               110 | 12 |     READY |   RUNNING |
+|               112 |  5 |   WAITING |     READY |
+|               210 | 12 |   RUNNING |     READY |
+|               210 |  5 |     READY |   RUNNING |
+|               310 |  5 |   RUNNING |     READY |
+|               310 |  5 |     READY |   RUNNING |
+|               320 |  5 |   RUNNING |   WAITING |
+|               320 | 12 |     READY |   RUNNING |
+|               322 |  5 |   WAITING |     READY |
+|               420 | 12 |   RUNNING |     READY |
+|               420 |  5 |     READY |   RUNNING |
+|               520 |  5 |   RUNNING |     READY |
+|               520 |  5 |     READY |   RUNNING |
+|               530 |  5 |   RUNNING |   WAITING |
+|               530 | 12 |     READY |   RUNNING |
+|               532 |  5 |   WAITING |     READY |
+|               630 | 12 |   RUNNING |     READY |
+|               630 |  5 |     READY |   RUNNING |
+|               700 |  5 |   RUNNING |TERMINATED |
+|               700 | 12 |     READY |   RUNNING |
+|               750 | 12 |   RUNNING |TERMINATED |
+|               750 | 73 |     READY |   RUNNING |
+|               850 | 73 |   RUNNING |     READY |
+|               850 | 73 |     READY |   RUNNING |
+|               870 | 73 |   RUNNING |   WAITING |
+|               872 | 73 |   WAITING |     READY |
+|               872 | 73 |     READY |   RUNNING |
+|               972 | 73 |   RUNNING |     READY |
+|               972 | 73 |     READY |   RUNNING |
+|               992 | 73 |   RUNNING |   WAITING |
+|               994 | 73 |   WAITING |     READY |
+|               994 | 73 |     READY |   RUNNING |
+|              1034 | 73 |   RUNNING |TERMINATED |
++------------------------------------------------+
+
+
+Performance Metrics: 
+Throughput: 0.00290135
+Average Turnaround Time: 813.667
+Average Wait Time: 470.333
+Average Response Time: 272.333

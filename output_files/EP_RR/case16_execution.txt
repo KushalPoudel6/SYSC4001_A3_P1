@@ -1,0 +1,51 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 10 |       NEW |     READY |
+|                 0 | 10 |     READY |   RUNNING |
+|                60 | 40 |       NEW |     READY |
+|                80 | 50 |       NEW |     READY |
+|               100 | 10 |   RUNNING |     READY |
+|               100 | 10 |     READY |   RUNNING |
+|               200 | 10 |   RUNNING |     READY |
+|               200 | 10 |     READY |   RUNNING |
+|               300 | 10 |   RUNNING |     READY |
+|               300 | 10 |     READY |   RUNNING |
+|               400 | 10 |   RUNNING |     READY |
+|               400 | 10 |     READY |   RUNNING |
+|               500 | 10 |   RUNNING |TERMINATED |
+|               500 | 40 |     READY |   RUNNING |
+|               530 | 40 |   RUNNING |   WAITING |
+|               530 | 50 |     READY |   RUNNING |
+|               540 | 40 |   WAITING |     READY |
+|               630 | 50 |   RUNNING |     READY |
+|               630 | 40 |     READY |   RUNNING |
+|               660 | 40 |   RUNNING |   WAITING |
+|               660 | 50 |     READY |   RUNNING |
+|               670 | 40 |   WAITING |     READY |
+|               740 | 50 |   RUNNING |TERMINATED |
+|               740 | 40 |     READY |   RUNNING |
+|               770 | 40 |   RUNNING |   WAITING |
+|               780 | 40 |   WAITING |     READY |
+|               780 | 40 |     READY |   RUNNING |
+|               810 | 40 |   RUNNING |   WAITING |
+|               820 | 40 |   WAITING |     READY |
+|               820 | 40 |     READY |   RUNNING |
+|               850 | 40 |   RUNNING |   WAITING |
+|               860 | 40 |   WAITING |     READY |
+|               860 | 40 |     READY |   RUNNING |
+|               890 | 40 |   RUNNING |   WAITING |
+|               900 | 40 |   WAITING |     READY |
+|               900 | 40 |     READY |   RUNNING |
+|               930 | 40 |   RUNNING |   WAITING |
+|               940 | 40 |   WAITING |     READY |
+|               940 | 40 |     READY |   RUNNING |
+|               950 | 40 |   RUNNING |TERMINATED |
++------------------------------------------------+
+
+
+Performance Metrics: 
+Throughput: 0.00315789
+Average Turnaround Time: 683.333
+Average Wait Time: 383.333
+Average Response Time: 296.667

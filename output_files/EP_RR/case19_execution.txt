@@ -1,0 +1,64 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 |  7 |       NEW |     READY |
+|                 0 |  7 |     READY |   RUNNING |
+|                 3 | 14 |       NEW |     READY |
+|                 7 | 21 |       NEW |     READY |
+|                11 | 35 |       NEW |     READY |
+|               100 |  7 |   RUNNING |     READY |
+|               100 |  7 |     READY |   RUNNING |
+|               110 |  7 |   RUNNING |   WAITING |
+|               110 | 14 |     READY |   RUNNING |
+|               112 |  7 |   WAITING |     READY |
+|               210 | 14 |   RUNNING |     READY |
+|               210 |  7 |     READY |   RUNNING |
+|               310 |  7 |   RUNNING |     READY |
+|               310 |  7 |     READY |   RUNNING |
+|               320 |  7 |   RUNNING |   WAITING |
+|               320 | 14 |     READY |   RUNNING |
+|               322 |  7 |   WAITING |     READY |
+|               345 | 14 |   RUNNING |   WAITING |
+|               345 |  7 |     READY |   RUNNING |
+|               348 | 14 |   WAITING |     READY |
+|               445 |  7 |   RUNNING |TERMINATED |
+|               445 | 14 |     READY |   RUNNING |
+|               545 | 14 |   RUNNING |     READY |
+|               545 | 14 |     READY |   RUNNING |
+|               570 | 14 |   RUNNING |   WAITING |
+|               570 | 21 |     READY |   RUNNING |
+|               573 | 14 |   WAITING |     READY |
+|               670 | 21 |   RUNNING |     READY |
+|               670 | 14 |     READY |   RUNNING |
+|               770 | 14 |   RUNNING |     READY |
+|               770 | 14 |     READY |   RUNNING |
+|               795 | 14 |   RUNNING |   WAITING |
+|               795 | 21 |     READY |   RUNNING |
+|               798 | 14 |   WAITING |     READY |
+|               895 | 21 |   RUNNING |     READY |
+|               895 | 14 |     READY |   RUNNING |
+|               900 | 14 |   RUNNING |TERMINATED |
+|               900 | 21 |     READY |   RUNNING |
+|               960 | 21 |   RUNNING |TERMINATED |
+|               960 | 35 |     READY |   RUNNING |
+|              1060 | 35 |   RUNNING |     READY |
+|              1060 | 35 |     READY |   RUNNING |
+|              1100 | 35 |   RUNNING |   WAITING |
+|              1102 | 35 |   WAITING |     READY |
+|              1102 | 35 |     READY |   RUNNING |
+|              1202 | 35 |   RUNNING |     READY |
+|              1202 | 35 |     READY |   RUNNING |
+|              1242 | 35 |   RUNNING |   WAITING |
+|              1244 | 35 |   WAITING |     READY |
+|              1244 | 35 |     READY |   RUNNING |
+|              1344 | 35 |   RUNNING |     READY |
+|              1344 | 35 |     READY |   RUNNING |
+|              1384 | 35 |   RUNNING |TERMINATED |
++------------------------------------------------+
+
+
+Performance Metrics: 
+Throughput: 0.00289017
+Average Turnaround Time: 917
+Average Wait Time: 572
+Average Response Time: 404.75

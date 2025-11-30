@@ -1,0 +1,44 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 11 |       NEW |     READY |
+|                 0 | 11 |     READY |   RUNNING |
+|                35 | 27 |       NEW |     READY |
+|                70 | 38 |       NEW |     READY |
+|               105 | 52 |       NEW |     READY |
+|               130 | 11 |   RUNNING |   WAITING |
+|               130 | 27 |     READY |   RUNNING |
+|               135 | 11 |   WAITING |     READY |
+|               235 | 27 |   RUNNING |   WAITING |
+|               235 | 11 |     READY |   RUNNING |
+|               237 | 27 |   WAITING |     READY |
+|               365 | 11 |   RUNNING |   WAITING |
+|               365 | 27 |     READY |   RUNNING |
+|               370 | 11 |   WAITING |     READY |
+|               470 | 27 |   RUNNING |   WAITING |
+|               470 | 11 |     READY |   RUNNING |
+|               472 | 27 |   WAITING |     READY |
+|               600 | 11 |   RUNNING |   WAITING |
+|               600 | 27 |     READY |   RUNNING |
+|               605 | 11 |   WAITING |     READY |
+|               700 | 27 |   RUNNING |TERMINATED |
+|               700 | 11 |     READY |   RUNNING |
+|               760 | 11 |   RUNNING |TERMINATED |
+|               760 | 38 |     READY |   RUNNING |
+|              1140 | 38 |   RUNNING |TERMINATED |
+|              1140 | 52 |     READY |   RUNNING |
+|              1255 | 52 |   RUNNING |   WAITING |
+|              1258 | 52 |   WAITING |     READY |
+|              1258 | 52 |     READY |   RUNNING |
+|              1373 | 52 |   RUNNING |   WAITING |
+|              1376 | 52 |   WAITING |     READY |
+|              1376 | 52 |     READY |   RUNNING |
+|              1436 | 52 |   RUNNING |TERMINATED |
++------------------------------------------------+
+
+
+Performance Metrics: 
+Throughput: 0.00278552
+Average Turnaround Time: 956.5
+Average Wait Time: 599
+Average Response Time: 455

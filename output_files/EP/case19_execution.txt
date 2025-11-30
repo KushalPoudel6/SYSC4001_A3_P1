@@ -1,0 +1,44 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 |  7 |       NEW |     READY |
+|                 0 |  7 |     READY |   RUNNING |
+|                 3 | 14 |       NEW |     READY |
+|                 7 | 21 |       NEW |     READY |
+|                11 | 35 |       NEW |     READY |
+|               110 |  7 |   RUNNING |   WAITING |
+|               110 | 14 |     READY |   RUNNING |
+|               112 |  7 |   WAITING |     READY |
+|               235 | 14 |   RUNNING |   WAITING |
+|               235 |  7 |     READY |   RUNNING |
+|               238 | 14 |   WAITING |     READY |
+|               345 |  7 |   RUNNING |   WAITING |
+|               345 | 14 |     READY |   RUNNING |
+|               347 |  7 |   WAITING |     READY |
+|               470 | 14 |   RUNNING |   WAITING |
+|               470 |  7 |     READY |   RUNNING |
+|               473 | 14 |   WAITING |     READY |
+|               570 |  7 |   RUNNING |TERMINATED |
+|               570 | 14 |     READY |   RUNNING |
+|               695 | 14 |   RUNNING |   WAITING |
+|               695 | 21 |     READY |   RUNNING |
+|               698 | 14 |   WAITING |     READY |
+|               955 | 21 |   RUNNING |TERMINATED |
+|               955 | 14 |     READY |   RUNNING |
+|               960 | 14 |   RUNNING |TERMINATED |
+|               960 | 35 |     READY |   RUNNING |
+|              1100 | 35 |   RUNNING |   WAITING |
+|              1102 | 35 |   WAITING |     READY |
+|              1102 | 35 |     READY |   RUNNING |
+|              1242 | 35 |   RUNNING |   WAITING |
+|              1244 | 35 |   WAITING |     READY |
+|              1244 | 35 |     READY |   RUNNING |
+|              1384 | 35 |   RUNNING |TERMINATED |
++------------------------------------------------+
+
+
+Performance Metrics: 
+Throughput: 0.00289017
+Average Turnaround Time: 962
+Average Wait Time: 617
+Average Response Time: 436

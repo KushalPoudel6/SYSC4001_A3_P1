@@ -1,0 +1,56 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 10 |       NEW |     READY |
+|                 0 | 10 |     READY |   RUNNING |
+|                 3 | 20 |       NEW |     READY |
+|                 5 | 30 |       NEW |     READY |
+|                 8 | 10 |   RUNNING |   WAITING |
+|                 8 | 40 |       NEW |     READY |
+|                 8 | 20 |     READY |   RUNNING |
+|                10 | 10 |   WAITING |     READY |
+|                14 | 20 |   RUNNING |   WAITING |
+|                14 | 10 |     READY |   RUNNING |
+|                17 | 20 |   WAITING |     READY |
+|                22 | 10 |   RUNNING |   WAITING |
+|                22 | 20 |     READY |   RUNNING |
+|                24 | 10 |   WAITING |     READY |
+|                28 | 20 |   RUNNING |   WAITING |
+|                28 | 10 |     READY |   RUNNING |
+|                31 | 20 |   WAITING |     READY |
+|                36 | 10 |   RUNNING |   WAITING |
+|                36 | 20 |     READY |   RUNNING |
+|                38 | 10 |   WAITING |     READY |
+|                42 | 20 |   RUNNING |TERMINATED |
+|                42 | 10 |     READY |   RUNNING |
+|                43 | 10 |   RUNNING |TERMINATED |
+|                43 | 30 |     READY |   RUNNING |
+|                50 | 30 |   RUNNING |   WAITING |
+|                50 | 40 |     READY |   RUNNING |
+|                52 | 30 |   WAITING |     READY |
+|                53 | 40 |   RUNNING |   WAITING |
+|                53 | 30 |     READY |   RUNNING |
+|                54 | 40 |   WAITING |     READY |
+|                60 | 30 |   RUNNING |   WAITING |
+|                60 | 40 |     READY |   RUNNING |
+|                62 | 30 |   WAITING |     READY |
+|                63 | 40 |   RUNNING |   WAITING |
+|                63 | 30 |     READY |   RUNNING |
+|                64 | 40 |   WAITING |     READY |
+|                70 | 30 |   RUNNING |   WAITING |
+|                70 | 40 |     READY |   RUNNING |
+|                72 | 30 |   WAITING |     READY |
+|                73 | 40 |   RUNNING |   WAITING |
+|                73 | 30 |     READY |   RUNNING |
+|                74 | 30 |   RUNNING |TERMINATED |
+|                74 | 40 |   WAITING |     READY |
+|                74 | 40 |     READY |   RUNNING |
+|                75 | 40 |   RUNNING |TERMINATED |
++------------------------------------------------+
+
+
+Performance Metrics: 
+Throughput: 0.0533333
+Average Turnaround Time: 54.5
+Average Wait Time: 35.75
+Average Response Time: 21.25

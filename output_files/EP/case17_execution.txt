@@ -1,0 +1,50 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 15 |       NEW |     READY |
+|                 0 | 15 |     READY |   RUNNING |
+|                 5 | 32 |       NEW |     READY |
+|                12 | 47 |       NEW |     READY |
+|                18 | 63 |       NEW |     READY |
+|                25 | 81 |       NEW |     READY |
+|               110 | 15 |   RUNNING |   WAITING |
+|               110 | 32 |     READY |   RUNNING |
+|               113 | 15 |   WAITING |     READY |
+|               390 | 32 |   RUNNING |TERMINATED |
+|               390 | 15 |     READY |   RUNNING |
+|               500 | 15 |   RUNNING |   WAITING |
+|               500 | 47 |     READY |   RUNNING |
+|               503 | 15 |   WAITING |     READY |
+|               605 | 47 |   RUNNING |   WAITING |
+|               605 | 15 |     READY |   RUNNING |
+|               607 | 47 |   WAITING |     READY |
+|               705 | 15 |   RUNNING |TERMINATED |
+|               705 | 47 |     READY |   RUNNING |
+|               810 | 47 |   RUNNING |   WAITING |
+|               810 | 63 |     READY |   RUNNING |
+|               812 | 47 |   WAITING |     READY |
+|               940 | 63 |   RUNNING |   WAITING |
+|               940 | 47 |     READY |   RUNNING |
+|               944 | 63 |   WAITING |     READY |
+|               970 | 47 |   RUNNING |TERMINATED |
+|               970 | 63 |     READY |   RUNNING |
+|              1100 | 63 |   RUNNING |   WAITING |
+|              1100 | 81 |     READY |   RUNNING |
+|              1104 | 63 |   WAITING |     READY |
+|              1180 | 81 |   RUNNING |   WAITING |
+|              1180 | 63 |     READY |   RUNNING |
+|              1181 | 81 |   WAITING |     READY |
+|              1270 | 63 |   RUNNING |TERMINATED |
+|              1270 | 81 |     READY |   RUNNING |
+|              1350 | 81 |   RUNNING |   WAITING |
+|              1351 | 81 |   WAITING |     READY |
+|              1351 | 81 |     READY |   RUNNING |
+|              1381 | 81 |   RUNNING |TERMINATED |
++------------------------------------------------+
+
+
+Performance Metrics: 
+Throughput: 0.00362056
+Average Turnaround Time: 931.2
+Average Wait Time: 655.2
+Average Response Time: 492

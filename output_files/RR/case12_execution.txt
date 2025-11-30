@@ -1,0 +1,33 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 10 |       NEW |     READY |
+|                 0 | 10 |     READY |   RUNNING |
+|                 3 |  1 |       NEW |     READY |
+|               100 | 10 |   RUNNING |     READY |
+|               100 | 10 |     READY |   RUNNING |
+|               120 | 10 |   RUNNING |   WAITING |
+|               120 |  1 |     READY |   RUNNING |
+|               123 | 10 |   WAITING |     READY |
+|               220 |  1 |   RUNNING |     READY |
+|               220 | 10 |     READY |   RUNNING |
+|               320 | 10 |   RUNNING |     READY |
+|               320 | 10 |     READY |   RUNNING |
+|               340 | 10 |   RUNNING |   WAITING |
+|               340 |  1 |     READY |   RUNNING |
+|               343 | 10 |   WAITING |     READY |
+|               440 |  1 |   RUNNING |     READY |
+|               440 | 10 |     READY |   RUNNING |
+|               540 | 10 |   RUNNING |     READY |
+|               540 | 10 |     READY |   RUNNING |
+|               550 | 10 |   RUNNING |TERMINATED |
+|               550 |  1 |     READY |   RUNNING |
+|               570 |  1 |   RUNNING |TERMINATED |
++------------------------------------------------+
+
+
+Performance Metrics: 
+Throughput: 0.00350877
+Average Turnaround Time: 558.5
+Average Wait Time: 273.5
+Average Response Time: 58.5

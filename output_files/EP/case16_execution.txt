@@ -1,0 +1,41 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 | 10 |       NEW |     READY |
+|                 0 | 10 |     READY |   RUNNING |
+|                60 | 40 |       NEW |     READY |
+|                80 | 50 |       NEW |     READY |
+|               500 | 10 |   RUNNING |TERMINATED |
+|               500 | 40 |     READY |   RUNNING |
+|               530 | 40 |   RUNNING |   WAITING |
+|               530 | 50 |     READY |   RUNNING |
+|               540 | 40 |   WAITING |     READY |
+|               710 | 50 |   RUNNING |TERMINATED |
+|               710 | 40 |     READY |   RUNNING |
+|               740 | 40 |   RUNNING |   WAITING |
+|               750 | 40 |   WAITING |     READY |
+|               750 | 40 |     READY |   RUNNING |
+|               780 | 40 |   RUNNING |   WAITING |
+|               790 | 40 |   WAITING |     READY |
+|               790 | 40 |     READY |   RUNNING |
+|               820 | 40 |   RUNNING |   WAITING |
+|               830 | 40 |   WAITING |     READY |
+|               830 | 40 |     READY |   RUNNING |
+|               860 | 40 |   RUNNING |   WAITING |
+|               870 | 40 |   WAITING |     READY |
+|               870 | 40 |     READY |   RUNNING |
+|               900 | 40 |   RUNNING |   WAITING |
+|               910 | 40 |   WAITING |     READY |
+|               910 | 40 |     READY |   RUNNING |
+|               940 | 40 |   RUNNING |   WAITING |
+|               950 | 40 |   WAITING |     READY |
+|               950 | 40 |     READY |   RUNNING |
+|               960 | 40 |   RUNNING |TERMINATED |
++------------------------------------------------+
+
+
+Performance Metrics: 
+Throughput: 0.003125
+Average Turnaround Time: 676.667
+Average Wait Time: 376.667
+Average Response Time: 296.667
